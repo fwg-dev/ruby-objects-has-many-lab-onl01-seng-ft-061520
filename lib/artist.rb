@@ -1,4 +1,4 @@
-# class Artist
+class Artist
 # song_count = 0
 #   attr_accessor :name, :songs
 #
@@ -25,4 +25,4 @@
 #   Song.all.count
 #
 # end
-# end
+end
