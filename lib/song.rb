@@ -11,11 +11,11 @@ def initialize(name)
  def self.all# this is a getter method for the class variable
    @@all
 end
-# def artist_name
-# if artist
-#   self.artist.name
-# else
-#   nil
-# end
-# end
+def artist_name #this gives allows us to have one simple and descriptive method that could return the name 
+if artist
+  self.artist.name
+else
+  nil
+end
+end
 end
