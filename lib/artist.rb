@@ -15,6 +15,7 @@ class Artist
 # we use self keyword to refer to the artist on which we are calling this method.
 # We call artist= method on the song that is being passed in as an argument and set it equal to self-the artist
 # telling a song that it belongs to an artist should happen when that song is added to the artist's @songs collection
+#we write the code that accomplishes this inside our #add_song method.
 end
 def add_song(song)
 song.artist = self
