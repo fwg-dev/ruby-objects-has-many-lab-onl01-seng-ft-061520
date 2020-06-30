@@ -1,6 +1,6 @@
 class Song
-# songs should have a title and should be able to tell you the name of the artist 
-#   attr_accessor :artist, :name 
+# songs should have a title and should be able to tell you the name of the artist
+#   attr_accessor :artist, :name
 #   @@all = []
 def initialize(name)
 #   @name = name
