@@ -25,10 +25,10 @@ end
 #This method will allow us to add new songs.
 #We write this method in this class Artist because it is the artist responsibility to add a new song to their collection
 #
-# def add_song_by_name(name)
-# artist = Song.new(name)
-# add_song(artist)
-# end
+def add_song_by_name(name)
+artist = Song.new(name)
+add_song(artist)
+end
 #
 # def self.song_count
 #   Song.all.count
