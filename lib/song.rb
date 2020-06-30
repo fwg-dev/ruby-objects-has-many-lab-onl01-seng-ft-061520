@@ -7,7 +7,7 @@ def initialize(name)
   @name = name
   @@all << self
   @songs = [] #set an instance variable, @songs, equal to an empty array because our artist doesn't have any songs yet.
-# end
+end
  def self.all# this is a getter method for the class variable
    @@all
 end
