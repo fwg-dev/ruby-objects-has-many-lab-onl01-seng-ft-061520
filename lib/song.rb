@@ -4,8 +4,8 @@ class Song
   @@all = [] #this is a class variable
   # when a song is initialized, we can push the instance into the @@all and be able to use Song.all to retrieve all Song instances
 def initialize(name)
-#   @name = name
-#   @@all << self
+  @name = name
+  @@all << self
   @songs = [] #set an instance variable, @songs, equal to an empty array because our artist doesn't have any songs yet.
 # end
  def self.all# this is a getter method for the class variable
