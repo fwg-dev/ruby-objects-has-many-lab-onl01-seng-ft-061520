@@ -1,6 +1,6 @@
 class Artist
 # song_count = 0
-# we can set individual instance of Song equal to an instance of Artist class  at the end 
+# we can set individual instance of Song equal to an instance of Artist class  at the end
 
 #   attr_accessor :name, :songs
 #
