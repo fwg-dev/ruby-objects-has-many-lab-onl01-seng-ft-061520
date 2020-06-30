@@ -1,10 +1,11 @@
-# class Song
-#   attr_accessor :artist, :name
+class Song
+# songs should have a title and should be able to tell you the name of the artist 
+#   attr_accessor :artist, :name 
 #   @@all = []
-# def initialize(name)
+def initialize(name)
 #   @name = name
 #   @@all << self
-#   @songs = []
+  @songs = [] #set an instance variable, @songs, equal to an empty array because our artist doesn't have any songs yet.
 # end
 #  def self.all
 #    @@all
@@ -16,4 +17,4 @@
 #   nil
 # end
 # end
-# end
+end
