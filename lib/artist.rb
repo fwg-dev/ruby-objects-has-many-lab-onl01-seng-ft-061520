@@ -1,5 +1,5 @@
 class Artist
-# song_count = 0
+song_count = 0
 # we can set individual instance of Song equal to an instance of Artist class  at the end
 
   attr_accessor :name, :songs
@@ -26,12 +26,13 @@ end
 #We write this method in this class Artist because it is the artist responsibility to add a new song to their collection
 #
 def add_song_by_name(name)
+#this takes in an argument of a name and genre and both creates the new song and adds that song to the artist's collection.
 artist = Song.new(name)
 add_song(artist)
 end
 #
-# def self.song_count
-#   Song.all.count
-#
-# end
+def self.song_count
+  Song.all.count
+
+end
 end
